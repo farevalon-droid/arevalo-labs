@@ -1,0 +1,45 @@
+/* ============================================================
+   AREVALO LABS® — Base Styles & Animations
+   Design System: Cyber Kinetic Brutalism (Electric Cyan)
+   ============================================================ */
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    overscroll-behavior: none;
+  }
+  main > :first-child { margin-top: 0 !important; }
+  main > :last-child  { margin-bottom: 0 !important; }
+}
+
+/* Hide scrollbar — brutalist design choice */
+::-webkit-scrollbar { display: none; }
+
+/* ── LED Pulse Animation ───────────────────────────────────── */
+@keyframes pulse-led {
+  0%, 100% { opacity: 1;   transform: scale(1);    }
+  50%       { opacity: 0.3; transform: scale(0.85); }
+}
+.led-pulse {
+  animation: pulse-led 1.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ── Focus ring override for keyboard navigation ──────────── */
+*:focus-visible {
+  outline: 2px solid #00E5FF;
+  outline-offset: 2px;
+}
+
+/* ── Smooth scroll ────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Selection highlight ─────────────────────────────────── */
+::selection {
+  background-color: #00E5FF;
+  color: #050b14;
+}

@@ -1,0 +1,21 @@
+# Netlify / Vercel edge config with security headers
+# Copy to netlify.toml or vercel.json when deploying
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Strict CSP — only allows self-hosted assets
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none';"
+    # Prevent MIME sniffing
+    X-Content-Type-Options = "nosniff"
+    # No referrer info leaked to external sites
+    Referrer-Policy = "no-referrer"
+    # Prevent framing (clickjacking)
+    X-Frame-Options = "DENY"
+    # Force HTTPS (1 year)
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    # Disable browser features not needed
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), payment=(), usb=()"
+    # Remove server fingerprint
+    Server = ""
+

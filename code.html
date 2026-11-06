@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Arevalo Labs® // Software Engineering Laboratory</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}@keyframes pulse-led{0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.3;transform:scale(0.85);}}.led-pulse{animation:pulse-led 1.2s cubic-bezier(0.4,0,0.6,1) infinite;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"tertiary-container":"#e5e2e1","primary-fixed":"#00E5FF","outline":"#486581","on-tertiary-container":"#656464","primary-fixed-dim":"#00b4d8","surface-variant":"#1e2530","on-surface":"#e5e2e1","on-background":"#e5e2e1","outline-variant":"#1e2d42","tertiary-fixed":"#e5e2e1","on-tertiary":"#313030","on-primary-container":"#002b49","inverse-on-surface":"#313030","secondary-fixed-dim":"#c7c6c6","on-secondary-fixed":"#1b1c1c","secondary-fixed":"#e3e2e2","tertiary-fixed-dim":"#c8c6c5","on-primary-fixed-variant":"#004777","surface-tint":"#00E5FF","surface-container-low":"#131720","secondary-container":"#263345","inverse-primary":"#0070F3","primary-container":"#00E5FF","background":"#0a0d14","on-primary":"#050b14","inverse-surface":"#e5e2e1","on-tertiary-fixed":"#1c1b1b","on-secondary":"#303031","on-tertiary-fixed-variant":"#474646","primary":"#ffffff","on-secondary-container":"#9fb3c8","surface-container-high":"#1c2331","surface-dim":"#0d111a","surface-container-highest":"#242d3d","surface":"#0f131d","surface-container-lowest":"#070a0f","on-surface-variant":"#9fb3c8","tertiary":"#ffffff","surface-container":"#161c28","error-container":"#93000a","on-primary-fixed":"#04121f","on-secondary-fixed-variant":"#464747","error":"#ffb4ab","on-error":"#690005","secondary":"#9fb3c8","on-error-container":"#ffdad6","surface-bright":"#283448"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin":"1rem","space-xs":"0.25rem","space-md":"1rem","space-xl":"2.5rem","gutter-desktop":"1.5rem","space-sm":"0.5rem","space-lg":"1.5rem","gutter":"1rem","margin-tablet":"1.5rem","margin-desktop":"2.5rem"},fontFamily:{"headline-lg":["Space Grotesk"],"headline-md":["Space Grotesk"],"body-lg":["Inter"],"label-mono-md":["JetBrains Mono"],"label-mono-lg":["JetBrains Mono"],"body-md":["Inter"],"headline-xl-mobile":["Space Grotesk"],"label-mono-sm":["JetBrains Mono"],"headline-xl":["Space Grotesk"],"headline-lg-mobile":["Space Grotesk"]},fontSize:{"headline-lg":["40px",{lineHeight:"44px",letterSpacing:"-0.03em",fontWeight:"700"}],"headline-md":["24px",{lineHeight:"28px",letterSpacing:"-0.02em",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"24px",letterSpacing:"-0.01em",fontWeight:"400"}],"label-mono-md":["11px",{lineHeight:"14px",letterSpacing:"0.08em",fontWeight:"500"}],"label-mono-lg":["13px",{lineHeight:"16px",letterSpacing:"0.06em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",letterSpacing:"0em",fontWeight:"400"}],"headline-xl-mobile":["36px",{lineHeight:"40px",letterSpacing:"-0.03em",fontWeight:"700"}],"label-mono-sm":["9px",{lineHeight:"12px",letterSpacing:"0.1em",fontWeight:"500"}],"headline-xl":["64px",{lineHeight:"68px",letterSpacing:"-0.04em",fontWeight:"700"}],"headline-lg-mobile":["28px",{lineHeight:"32px",letterSpacing:"-0.02em",fontWeight:"700"}]}}}};</script></head><body class="bg-surface-container-lowest text-on-surface font-body-md text-body-md min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md border-b border-outline-variant/40"><div class="h-16 w-full px-gutter-desktop mx-auto flex items-center justify-between"><div class="flex items-center gap-space-lg"><a class="flex items-center" data-path="inicio" href="#"><img alt="Arevalo Labs Corporate Brutalist Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W_cK79YSmrdV5YETpLuT4x9qVNrf9kullTsxLqQDYGffSw3lBVrK9BWmgiNJa_yFB5mx1fszxNvO86XpS46RqsqETG-SXOXDvJKqVTuXP2AIWTxtfSX-zlhJfrdw-zB373QhYS-wgHOvyhELyAVmNQ2lIbgAGhYpONzfW6X1nHptQQqhZe22ups0CC2pwoQfjnOFPLU--5Xx8cmUyI-8yUyp-v86HBaDzuiIc9kAjZ"/></a><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-1 bg-surface-container border border-outline-variant rounded"><div class="w-2 h-2 bg-primary-fixed led-pulse rounded-none shadow-[0_0_8px_#00E5FF]"></div><span class="font-label-mono-md text-label-mono-md text-on-surface uppercase">SYS_STATUS: OPTIMAL [NODE_01]</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary-fixed border-b-2 border-primary-fixed"><a aria-current="page" class="font-label-mono-md uppercase tracking-wider transition-colors py-1 text-primary-fixed border-b-2 border-primary-fixed" data-path="inicio" href="#">Inicio</a><a class="font-label-mono-md text-label-mono-md uppercase tracking-wider text-on-surface-variant hover:text-primary-fixed transition-colors py-1" data-path="servicios" href="#">Servicios</a><a class="font-label-mono-md text-label-mono-md uppercase tracking-wider text-on-surface-variant hover:text-primary-fixed transition-colors py-1" data-path="tecnologias" href="#">Tecnologías</a><a class="font-label-mono-md text-label-mono-md uppercase tracking-wider text-on-surface-variant hover:text-primary-fixed transition-colors py-1" data-path="proceso" href="#">Proceso</a><a class="font-label-mono-md text-label-mono-md uppercase tracking-wider text-on-surface-variant hover:text-primary-fixed transition-colors py-1" data-path="portafolio" href="#">Portafolio</a><a class="font-label-mono-md text-label-mono-md uppercase tracking-wider text-on-surface-variant hover:text-primary-fixed transition-colors py-1" data-path="contacto" href="#">Contacto</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center gap-space-xs px-space-md py-2 bg-primary-fixed text-on-primary-fixed font-label-mono-md text-label-mono-md font-bold uppercase tracking-wider border border-primary-fixed hover:bg-surface-container-lowest hover:text-primary-fixed hover:shadow-[2px_2px_0px_0px_#00E5FF] transition-all" href="https://wa.me/573113363362" rel="noopener noreferrer" target="_blank"><span>[ INICIAR PROYECTO ↗ ]</span></a><div class="w-8 h-8 rounded-full bg-primary-fixed/20 border border-primary-fixed/40 flex items-center justify-center"><span class="material-symbols-outlined text-primary-fixed text-[18px]">person</span></div><button aria-label="Menu Toggle" class="lg:hidden flex items-center justify-center p-2 text-on-surface border border-outline-variant hover:border-primary-fixed" type="button"><span class="material-symbols-outlined">menu</span></button></div></div></header><main class="w-full pt-16 bg-surface-container-lowest"><div class="flex flex-col w-full">
+<!-- SECTION 1: HERO (PRIMER IMPACTO) -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest py-space-xl lg:py-32 flex flex-col justify-center" id="inicio">
+<!-- STITCH_SHADER_START:ANIMATION_5 class="absolute inset-0 w-full h-full pointer-events-none opacity-40" -->
+<div class="absolute inset-0 w-full h-full pointer-events-none opacity-40" style="display:block;">
+<canvas id="shader-canvas-ANIMATION_5" style="display:block;width:100%;height:100%"></canvas>
+<script>
+(function() {
+  const canvas = document.getElementById('shader-canvas-ANIMATION_5');
+
+  // Sync the WebGL drawing-buffer size with the CSS-driven layout size.
+  // This fires on initial layout and whenever the element is resized.
+  function syncSize() {
+    const w = canvas.clientWidth  || 1280;
+    const h = canvas.clientHeight || 720;
+    if (canvas.width !== w || canvas.height !== h) {
+      canvas.width  = w;
+      canvas.height = h;
+    }
+  }
+  if (typeof ResizeObserver !== 'undefined') {
+    new ResizeObserver(syncSize).observe(canvas);
+  }
+  syncSize();
+
+  const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+  if (!gl) return;
+  const vs = `attribute vec2 a_position;
+varying vec2 v_texCoord;
+void main() {
+  v_texCoord = a_position * 0.5 + 0.5;
+  gl_Position = vec4(a_position, 0.0, 1.0);
+}`;
+  const fs = `precision highp float;
+uniform float u_time;
+uniform vec2 u_resolution;
+uniform vec2 u_mouse;
+
+// Pseudo-random generator
+float hash(vec2 p) {
+    p = fract(p * vec2(123.34, 456.21));
+    p += dot(p, p + 45.32);
+    return fract(p.x * p.y);
+}
+
+void main() {
+    vec2 st = gl_FragCoord.xy / u_resolution.xy;
+    vec2 p = gl_FragCoord.xy;
+    
+    // Matrix code column grid
+    float cols = 64.0;
+    float colIdx = floor(st.x * cols);
+    float colFrac = fract(st.x * cols);
+    
+    // Random speed and seed per column
+    float speed = 1.2 + hash(vec2(colIdx, 1.0)) * 2.8;
+    float colSeed = hash(vec2(colIdx, 2.0));
+    
+    // Vertical code stream calculation
+    float rowHeight = 14.0;
+    float rowIdx = floor((gl_FragCoord.y + u_time * speed * 40.0) / rowHeight);
+    float charSeed = hash(vec2(colIdx, rowIdx));
+    
+    // Glyph block intensity
+    float charMask = step(0.18, colFrac) * step(colFrac, 0.82);
+    float bit = step(0.45, charSeed);
+    
+    // Matrix fall head brightness
+    float headPos = fract((u_time * speed * 0.15) + colSeed);
+    float distToHead = fract(1.0 - st.y - headPos);
+    float trail = exp(-distToHead * 7.5);
+    
+    // Digital circuit lines / horizontal scanlines
+    float scanline = sin(gl_FragCoord.y * 1.5 + u_time * 3.0) * 0.05;
+    
+    // Tech Electric Blue Palette
+    vec3 bg = vec3(0.02, 0.03, 0.05); // deep cyber navy
+    vec3 cyanGlow = vec3(0.0, 0.9, 1.0); // #00E5FF electric cyan/blue
+    vec3 deepBlue = vec3(0.05, 0.25, 0.85); // cobalt blue
+    vec3 white = vec3(0.95, 0.98, 1.0);
+    
+    // Code stream color
+    vec3 codeColor = mix(deepBlue, cyanGlow, trail);
+    // Extra brightness at the tip of the stream
+    if (distToHead < 0.04 && distToHead >= 0.0) {
+        codeColor = mix(codeColor, white, 0.85);
+    }
+    
+    float codeIntensity = charMask * bit * trail * 0.45;
+    
+    // Technical perspective grid floor accent
+    vec2 pGrid = (gl_FragCoord.xy * 2.0 - u_resolution.xy) / min(u_resolution.x, u_resolution.y);
+    float grid = step(0.97, fract(pGrid.x * 12.0)) + step(0.97, fract(pGrid.y * 12.0));
+    
+    vec3 finalColor = bg;
+    finalColor += codeColor * codeIntensity;
+    finalColor += cyanGlow * (grid * 0.025);
+    finalColor += vec3(scanline * 0.2);
+    
+    // Vignette
+    float vig = 1.0 - length(st - 0.5) * 0.8;
+    finalColor *= clamp(vig, 0.2, 1.0);
+    
+    gl_FragColor = vec4(finalColor, 1.0);
+}`;
+  function cs(type, src) {
+    const s = gl.createShader(type);
+    gl.shaderSource(s, src);
+    gl.compileShader(s);
+    return s;
+  }
+  const prog = gl.createProgram();
+  gl.attachShader(prog, cs(gl.VERTEX_SHADER, vs));
+  gl.attachShader(prog, cs(gl.FRAGMENT_SHADER, fs));
+  gl.linkProgram(prog);
+  gl.useProgram(prog);
+  const buf = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+  const pos = gl.getAttribLocation(prog, 'a_position');
+  gl.enableVertexAttribArray(pos);
+  gl.vertexAttribPointer(pos, 2, gl.FLOAT, false, 0, 0);
+  const uTime = gl.getUniformLocation(prog, 'u_time');
+  const uRes = gl.getUniformLocation(prog, 'u_resolution');
+  const uMouse = gl.getUniformLocation(prog, 'u_mouse');
+
+  // u_mouse is in pixel coordinates matching u_resolution (ShaderToy convention).
+  // Shaders that need normalized coords should use: u_mouse / u_resolution.
+  let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+  window.addEventListener('mousemove', (event) => {
+    const rect = canvas.getBoundingClientRect();
+    if (rect.width && rect.height) {
+      const nx = (event.clientX - rect.left) / rect.width;
+      const ny = 1.0 - (event.clientY - rect.top) / rect.height;
+      mouse.x = nx * canvas.width;
+      mouse.y = ny * canvas.height;
+    }
+  });
+
+  function render(t) {
+    if (typeof ResizeObserver === 'undefined') syncSize();
+    gl.viewport(0, 0, canvas.width, canvas.height);
+    if (uTime) gl.uniform1f(uTime, t * 0.001);
+    if (uRes) gl.uniform2f(uRes, canvas.width, canvas.height);
+    if (uMouse) gl.uniform2f(uMouse, mouse.x, mouse.y);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    requestAnimationFrame(render);
+  }
+  render(0);
+})();
+</script>
+</div>
+<!-- STITCH_SHADER_END:ANIMATION_5 -->
+<!-- Blueprint grid background aesthetic -->
+<div class="absolute inset-0 bg-[radial-gradient(#00E5FF_1px,transparent_1px)] [background-size:24px_24px] opacity-10 pointer-events-none"></div>
+<div class="relative z-10 w-full px-gutter-desktop mx-auto max-w-7xl flex flex-col gap-space-lg">
+<!-- HUD Telemetry Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm font-label-mono-sm text-label-mono-sm text-outline tracking-widest uppercase">
+<div class="flex items-center gap-space-sm bg-surface-container-low border border-outline-variant/60 px-space-sm py-1">
+<span class="w-2 h-2 bg-primary-fixed inline-block led-pulse shadow-[0_0_6px_#00E5FF]"></span>
+<span class="text-primary-fixed font-bold">[ SYSTEM ONLINE ]</span>
+<span class="text-secondary hidden sm:inline">// DEV_STATUS: OPERATIONAL</span>
+</div>
+<div class="flex items-center gap-space-md bg-surface-container-low border border-outline-variant/60 px-space-sm py-1">
+<span class="hidden md:inline">COORD: 04°42′N 74°04′W // BOGOTÁ NODE</span>
+<span class="text-primary-fixed">LAB VER: 4.8.2-PROD</span>
+</div>
+</div>
+<!-- Hero Header & High-Scale Typography -->
+<div class="flex flex-col gap-space-sm mt-space-md">
+<div class="flex items-center gap-space-xs text-primary-fixed font-label-mono-md text-label-mono-md uppercase tracking-widest">
+<span>&gt;&gt;</span>
+<span>AREVALO LABS® // LABORATORIO DE SOFTWARE INDEPENDIENTE</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary uppercase max-w-5xl leading-none tracking-tighter">
+          NO SOLO IMAGINAMOS EL FUTURO.<br/>
+<span class="text-primary-fixed bg-surface-container border border-primary-fixed/30 px-2 inline-block mt-2">LO PROGRAMAMOS.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-secondary max-w-2xl mt-space-sm leading-relaxed">
+          Desarrollamos software a medida, automatizaciones y experiencias digitales de alto rendimiento que transforman operaciones complejas en sistemas eficientes, escalables y rentables.
+        </p>
+</div>
+<!-- Action Buttons & Live Metric HUD -->
+<div class="flex flex-wrap items-center gap-space-md mt-space-md pt-space-md">
+<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-4 bg-primary-fixed text-on-primary-fixed font-label-mono-lg text-label-mono-lg font-bold uppercase tracking-wider shadow-[4px_4px_0px_0px_#ffffff] hover:bg-surface-container hover:text-primary-fixed hover:shadow-[4px_4px_0px_0px_#00E5FF] transition-all" href="https://wa.me/573113363362?text=Hola%20Frank,%20quiero%20iniciar%20un%20proyecto%20de%20software%20con%20Arevalo%20Labs" rel="noopener noreferrer" target="_blank">
+<span>[ INICIAR MI PROYECTO ↗ ]</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-4 bg-surface-container-high text-on-surface font-label-mono-lg text-label-mono-lg font-semibold uppercase tracking-wider border border-outline-variant hover:bg-surface-variant hover:text-primary-fixed hover:border-primary-fixed transition-all" href="#servicios">
+<span>[ EXPLORAR SOLUCIONES ↓ ]</span>
+</a>
+<div class="hidden xl:flex items-center gap-space-sm px-space-md py-3 bg-surface-container-low border border-outline-variant/60 ml-auto">
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">RUNTIME_METRICS</span>
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed font-semibold">PING: 14ms // 99.99% UPTIME</span>
+</div>
+<span class="material-symbols-outlined text-primary-fixed text-xl">speed</span>
+</div>
+</div>
+<!-- Hero Visual Tech Console Strip -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm mt-space-lg pt-space-lg bg-surface-container-low border border-outline-variant/50 p-space-md">
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">CORE ARCHITECTURE</span>
+<span class="font-label-mono-md text-label-mono-md text-primary font-bold">EVENT-DRIVEN &amp; MODULAR</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">DEPLOY PROTOCOL</span>
+<span class="font-label-mono-md text-label-mono-md text-primary font-bold">CI/CD HARDENED</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">TARGET PLATFORMS</span>
+<span class="font-label-mono-md text-label-mono-md text-primary font-bold">CLOUD / POS / MOBILE / IA</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">ENGINEER LEAD</span>
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed font-bold">FRANK ARÉVALO</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: SOBRE AREVALO LABS -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="w-full px-gutter-desktop mx-auto max-w-7xl flex flex-col gap-space-xl">
+<!-- Section Tag -->
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline uppercase">
+<span>// LAB OVERVIEW_02</span>
+<span class="text-primary-fixed">[ SPEC: FOUNDRY &amp; LAB ]</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<h2 class="font-headline-lg text-headline-lg text-primary uppercase leading-tight">
+            INGENIERÍA DIGITAL.<br/>
+<span class="text-primary-fixed">IDEAS SIN LÍMITES.</span>
+</h2>
+<p class="font-body-lg text-body-lg text-secondary leading-relaxed">
+            Arevalo Labs es un laboratorio independiente de ingeniería de software dedicado a construir soluciones digitales inteligentes, funcionales y escalables. Trabajamos con empresas, emprendedores y organizaciones que necesitan transformar sus procesos, optimizar su operación o llevar una idea tecnológica al siguiente nivel con precisión milimétrica.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Rechazamos el código genérico, las plantillas infladas y el software descartable. Cada línea construida en nuestro laboratorio responde a estándares industriales de resiliencia, alta concurrencia y máxima eficiencia de cómputo.
+          </p>
+<!-- Badges & Pills -->
+<div class="flex flex-wrap gap-space-xs mt-space-sm">
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-high border border-primary-fixed/40 text-primary-fixed uppercase tracking-wider font-semibold">
+              [ SOFTWARE ENGINEERING ]
+            </span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-high border border-outline-variant text-on-surface uppercase tracking-wider font-semibold">
+              [ DIGITAL INNOVATION ]
+            </span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-high border border-outline-variant text-on-surface uppercase tracking-wider font-semibold">
+              [ CUSTOM SOLUTIONS ]
+            </span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-high border border-primary-fixed/40 text-primary-fixed uppercase tracking-wider font-semibold">
+              [ AI INTEGRATION ]
+            </span>
+</div>
+</div>
+<!-- Brutalist Lab Telemetry Cards -->
+<div class="lg:col-span-5 grid grid-cols-2 gap-space-sm">
+<div class="p-space-md bg-surface-container border border-outline-variant/60 flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">// CODEBASE</span>
+<span class="font-headline-md text-headline-md text-primary-fixed font-bold leading-none">+50k</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">Líneas Optimizadas</span>
+</div>
+<div class="p-space-md bg-surface-container border border-outline-variant/60 flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">// INTEGRITY</span>
+<span class="font-headline-md text-headline-md text-primary font-bold leading-none">100%</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">Código a Medida</span>
+</div>
+<div class="p-space-md bg-surface-container border border-outline-variant/60 flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">// EFFICIENCY</span>
+<span class="font-headline-md text-headline-md text-primary-fixed font-bold leading-none">0ms</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">Latencia Innecesaria</span>
+</div>
+<div class="p-space-md bg-surface-container border border-outline-variant/60 flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-outline uppercase">// CONTINUITY</span>
+<span class="font-headline-md text-headline-md text-primary font-bold leading-none">24/7</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">Soporte Continuo</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: SERVICIOS DE DESARROLLO (10 Brutalist Cards Grid) -->
+<section class="w-full bg-surface-container-lowest py-space-xl" id="servicios">
+<div class="w-full px-gutter-desktop mx-auto max-w-7xl flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed uppercase tracking-wider">// CAPACIDADES_MODULARES // SPEC-03</span>
+<h2 class="font-headline-lg text-headline-lg text-primary uppercase">SERVICIOS DE DESARROLLO</h2>
+</div>
+<p class="font-body-md text-body-md text-secondary max-w-md">
+          Módulos de ingeniería diseñados para resolver fricciones operativas críticas y acelerar el crecimiento comercial.
+        </p>
+</div>
+<!-- 10 Modular Brutalist Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- 01 ERP -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 hover:border-primary-fixed/60 hover:bg-surface-container transition-all flex flex-col justify-between group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ MOD_01 ]</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary-fixed text-2xl transition-colors">corporate_fare</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">SISTEMAS ERP</h3>
+<p class="font-body-md text-body-md text-secondary">
+              Planificación de recursos empresariales para administrar operaciones unificadas, inventarios en tiempo real, ventas, compras, finanzas y control integral de procesos internos.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline uppercase border-t border-outline-variant/30">
+<span>RESILIENCE: HIGH</span>
+<span class="text-primary-fixed group-hover:translate-x-1 transition-transform">EXPAND ↗</span>
+</div>
+</div>
+<!-- 02 CONTABLE -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 hover:border-primary-fixed/60 hover:bg-surface-container transition-all flex flex-col justify-between group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ MOD_02 ]</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary-fixed text-2xl transition-colors">account_balance</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">SOFTWARE CONTABLE</h3>
+<p class="font-body-md text-body-md text-secondary">
+              Sistemas personalizados para gestión contable rigurosa, facturación fiscal electrónica, libros mayores, reportes de liquidez y conciliación bancaria automatizada.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline uppercase border-t border-outline-variant/30">
+<span>AUDIT-READY: YES</span>
+<span class="text-primary-fixed group-hover:translate-x-1 transition-transform">EXPAND ↗</span>
+</div>
+</div>
+<!-- 03 POS -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 hover:border-primary-fixed/60 hover:bg-surface-container transition-all flex flex-col justify-between group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ MOD_03 ]</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary-fixed text-2xl transition-colors">point_of_sale</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">SISTEMAS POS</h3>
+<p class="font-body-md text-body-md text-secondary">
+              Terminales de venta de alta velocidad para tiendas físicas, restaurantes y comercios con soporte offline, sincronización de existencias, comandas e impresión de tickets.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline uppercase border-t border-outline-variant/30">
+<span>OFFLINE-FIRST: 100%</span>
+<span class="text-primary-fixed group-hover:translate-x-1 transition-transform">EXPAND ↗</span>
+</div>
+</div>
+<!-- 04 CRM -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 hover:border-primary-fixed/60 hover:bg-surface-container transition-all flex flex-col justify-between group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ MOD_04 ]</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary-fixed text-2xl transition-colors">hub</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">CRM &amp; CLIENTES</h3>
+<p class="font-body-md text-body-md text-secondary">
+              Plataformas para gestionar prospectos cualificados, pipelines de ventas visuales, automatización de interacciones comerciales e historiales de ciclo de vida del cliente.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline uppercase border-t border-outline-variant/30">
+<span>CONVERSION FOCUS</span>
+<span class="text-primary-fixed group-hover:translate-x-1 transition-transform">EXPAND ↗</span>
+</div>
+</div>
+<!-- 05 DESARROLLO WEB -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 hover:border-primary-fixed/60 hover:bg-surface-container transition-all flex flex-col justify-between group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ MOD_05 ]</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary-fixed text-2xl transition-colors">language</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">DESARROLLO WEB</h3>
+<p class="font-body-md text-body-md text-secondary">
+              Portales web corporativos, landings de alto impacto, plataformas de e-commerce y aplicaciones web progresivas (PWA) optimizadas para velocidad extrema y SEO técnico.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline uppercase border-t border-outline-variant/30">
+<span>LCP &lt; 0.8S</span>
+<span class="text-primary-fixed group-hover:translate-x-1 transition-transform">EXPAND ↗</span>
+</div>
+</div>
+<!-- 06 APLICACIONES MÓVILES -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 hover:border-primary-fixed/60 hover:bg-surface-container transition-all flex flex-col justify-between group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ MOD_06 ]</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary-fixed text-2xl transition-colors">smartphone</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">APPS MÓVILES</h3>
+<p class="font-body-md text-body-md text-secondary">
+              Ingeniería móvil nativa e híbrida para iOS y Android con Flutter o React Native. Experiencias fluidas a 60/120fps, almacenamiento local y notificaciones push transaccionales.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline uppercase border-t border-outline-variant/30">
+<span>MULTI-OS RUNTIME</span>
+<span class="text-primary-fixed group-hover:translate-x-1 transition-transform">EXPAND ↗</span>
+</div>
+</div>
+<!-- 07 AUTOMATIZACIONES -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 hover:border-primary-fixed/60 hover:bg-surface-container transition-all flex flex-col justify-between group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ MOD_07 ]</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary-fixed text-2xl transition-colors">sync_alt</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">AUTOMATIZACIONES</h3>
+<p class="font-body-md text-body-md text-secondary">
+              Automatización de flujos de trabajo repetitivos, orquestación con n8n y scripts Python, integración vía webhooks y eliminación del error humano en procesos administrativos.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline uppercase border-t border-outline-variant/30">
+<span>PIPELINE ENGINE</span>
+<span class="text-primary-fixed group-hover:translate-x-1 transition-transform">EXPAND ↗</span>
+</div>
+</div>
+<!-- 08 SOFTWARE A MEDIDA -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 hover:border-primary-fixed/60 hover:bg-surface-container transition-all flex flex-col justify-between group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ MOD_08 ]</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary-fixed text-2xl transition-colors">terminal</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">SOFTWARE A MEDIDA</h3>
+<p class="font-body-md text-body-md text-secondary">
+              Herramientas de software exclusivas para modelos de negocio particulares que no encajan en soluciones comerciales convencionales. Arquitecturas propietarias sin dependencias externas.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline uppercase border-t border-outline-variant/30">
+<span>BESPOKE LOGIC</span>
+<span class="text-primary-fixed group-hover:translate-x-1 transition-transform">EXPAND ↗</span>
+</div>
+</div>
+<!-- 09 SISTEMAS MULTIPLATAFORMA -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 hover:border-primary-fixed/60 hover:bg-surface-container transition-all flex flex-col justify-between group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ MOD_09 ]</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary-fixed text-2xl transition-colors">devices</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">MULTIPLATAFORMA</h3>
+<p class="font-body-md text-body-md text-secondary">
+              Despliegue transversal en Windows, Linux, macOS, Android, iOS y navegadores web compartiendo lógica central para reducir costos de mantenimiento e incrementar consistencia operativa.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline uppercase border-t border-outline-variant/30">
+<span>UNIVERSAL BINARY</span>
+<span class="text-primary-fixed group-hover:translate-x-1 transition-transform">EXPAND ↗</span>
+</div>
+</div>
+<!-- 10 INTELIGENCIA ARTIFICIAL (Full-width spanning highlight on 3-col) -->
+<div class="p-space-lg bg-surface-container border border-primary-fixed/30 md:col-span-2 lg:col-span-3 hover:bg-surface-container-high transition-all flex flex-col md:flex-row justify-between items-start md:items-center gap-space-md group">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ MOD_10 // LAB APEX ]</span>
+<span class="w-2 h-2 bg-primary-fixed led-pulse shadow-[0_0_6px_#00E5FF]"></span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">INTELIGENCIA ARTIFICIAL &amp; LLMS</h3>
+<p class="font-body-md text-body-md text-secondary">
+              Integración de modelos fundacionales (OpenAI, Claude, Llama), asistentes virtuales inteligentes autónomos, análisis predictivo de datos y agentes cognitivos embebidos en el flujo de negocio.
+            </p>
+</div>
+<a class="inline-flex items-center gap-space-xs px-space-md py-3 bg-primary-fixed text-on-primary-fixed font-label-mono-md text-label-mono-md uppercase font-bold hover:bg-surface-container-lowest hover:text-primary-fixed border border-primary-fixed transition-colors" href="https://wa.me/573113363362?text=Hola%20Frank,%20me%20interesa%20integrar%20Inteligencia%20Artificial%20con%20Arevalo%20Labs" rel="noopener noreferrer" target="_blank">
+<span>[ INICIAR INTEGRACIÓN IA ↗ ]</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: STACK TECNOLÓGICO ("POWERED BY TECHNOLOGY") -->
+<section class="w-full bg-surface-container-low py-space-xl" id="tecnologias">
+<div class="w-full px-gutter-desktop mx-auto max-w-7xl flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm font-label-mono-sm text-label-mono-sm text-outline uppercase">
+<span>// TECH_REGISTRY // MATRIX 04</span>
+<span class="text-primary-fixed">64 RUNTIME COMPATIBLE</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary uppercase">POWERED BY TECHNOLOGY</h2>
+<p class="font-body-lg text-body-lg text-secondary max-w-3xl">
+          Herramientas de ingeniería seleccionadas estratégicamente según los requerimientos de arquitectura, rendimiento y escalabilidad de cada solución.
+        </p>
+</div>
+<!-- Brutalist Matrix Grid of Tech Stacks -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Frontend Matrix -->
+<div class="bg-surface-container border border-outline-variant/40 p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">// 01 FRONTEND</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">UI_ENGINE</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">HTML5</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">CSS3</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">JavaScript</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">TypeScript</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">React</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">Next.js</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Vue.js</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">Tailwind CSS</span>
+</div>
+</div>
+<!-- Backend Matrix -->
+<div class="bg-surface-container border border-outline-variant/40 p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">// 02 BACKEND</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">SERVER_CORE</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">Python</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Java</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">Node.js</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">PHP</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">FastAPI</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Django</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Spring Boot</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Express.js</span>
+</div>
+</div>
+<!-- Mobile & Cross-platform -->
+<div class="bg-surface-container border border-outline-variant/40 p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">// 03 MOBILE &amp; RUNTIME</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">CLIENT_EXE</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">Flutter</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Dart</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">React Native</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Kotlin</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Java</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Python Desktop</span>
+</div>
+</div>
+<!-- Databases -->
+<div class="bg-surface-container border border-outline-variant/40 p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">// 04 DATABASES</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">DATA_PERSIST</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">PostgreSQL</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">MySQL</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">SQLite</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">MongoDB</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Firebase Firestore</span>
+</div>
+</div>
+<!-- DevOps & Tooling -->
+<div class="bg-surface-container border border-outline-variant/40 p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">// 05 TOOLING &amp; DEVOPS</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">INFRA_SPEC</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Git</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">GitHub CI/CD</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">Docker</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">Linux Kernel / Bash</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">REST APIs</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Figma UI/UX</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">VS Code</span>
+</div>
+</div>
+<!-- Automation & AI -->
+<div class="bg-surface-container border border-outline-variant/40 p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">// 06 AUTOMATION &amp; AI</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">COGNITIVE_NODE</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">Python Automation</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">n8n Orchestration</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary-fixed border border-primary-fixed/30">OpenAI API</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Anthropic / Claude API</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">External REST Endpoints</span>
+<span class="font-label-mono-sm text-label-mono-sm px-space-sm py-1 bg-surface-container-highest text-primary">Machine Learning RAG</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: PROCESO DE DESARROLLO ("DE LA IDEA AL CÓDIGO.") -->
+<section class="w-full bg-surface-container-lowest py-space-xl" id="proceso">
+<div class="w-full px-gutter-desktop mx-auto max-w-7xl flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed uppercase tracking-wider">// PIPELINE_EXECUTION // SPEC-05</span>
+<h2 class="font-headline-lg text-headline-lg text-primary uppercase">DE LA IDEA AL CÓDIGO.</h2>
+<p class="font-body-lg text-body-lg text-secondary max-w-2xl">
+          Un protocolo lineal de ingeniería transparente, estructurado para minimizar fricciones y maximizar la predictibilidad en cada entrega.
+        </p>
+</div>
+<!-- Chronological Timeline Steps -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- STEP 01 -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 flex flex-col justify-between relative group hover:border-primary-fixed/50 hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">PHASE // 01</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">INPUT</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">DISCOVERY</h3>
+<p class="font-body-md text-body-md text-secondary leading-relaxed">
+              Analizamos a profundidad tu idea, el contexto operacional de tu negocio, los problemas que deseas resolver y los indicadores de éxito técnico que definirán la victoria del sistema.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-sm border-t border-outline-variant/30 font-label-mono-sm text-label-mono-sm text-outline uppercase flex items-center gap-space-xs">
+<span class="w-1.5 h-1.5 bg-primary-fixed inline-block"></span>
+<span>REQUERIMIENTOS TÉCNICOS</span>
+</div>
+</div>
+<!-- STEP 02 -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 flex flex-col justify-between relative group hover:border-primary-fixed/50 hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">PHASE // 02</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">BLUEPRINT</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">DESIGN</h3>
+<p class="font-body-md text-body-md text-secondary leading-relaxed">
+              Diseñamos una solución tecnológica clara, intuitiva y funcional. Estructuramos modelos de datos relacionales, prototipos de interfaz interactivos y diagramas de arquitectura de red.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-sm border-t border-outline-variant/30 font-label-mono-sm text-label-mono-sm text-outline uppercase flex items-center gap-space-xs">
+<span class="w-1.5 h-1.5 bg-primary-fixed inline-block"></span>
+<span>ESPECIFICACIONES UI/UX</span>
+</div>
+</div>
+<!-- STEP 03 -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 flex flex-col justify-between relative group hover:border-primary-fixed/50 hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">PHASE // 03</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">BUILD</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">DEVELOPMENT</h3>
+<p class="font-body-md text-body-md text-secondary leading-relaxed">
+              Transformamos el diseño en software sólido mediante ciclos de desarrollo ágil, pruebas unitarias automatizadas, revisiones de seguridad y optimización rigurosa de bases de datos.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-sm border-t border-outline-variant/30 font-label-mono-sm text-label-mono-sm text-outline uppercase flex items-center gap-space-xs">
+<span class="w-1.5 h-1.5 bg-primary-fixed inline-block"></span>
+<span>CÓDIGO FUENTE AUDITADO</span>
+</div>
+</div>
+<!-- STEP 04 -->
+<div class="p-space-lg bg-surface-container-low border border-outline-variant/40 flex flex-col justify-between relative group hover:border-primary-fixed/50 hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">PHASE // 04</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">LAUNCH</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">DEPLOYMENT</h3>
+<p class="font-body-md text-body-md text-secondary leading-relaxed">
+              Implementamos tu proyecto en infraestructura de producción, configuramos telemetría de monitoreo en tiempo real y te acompañamos en su puesta en marcha con capacitación directa.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-sm border-t border-outline-variant/30 font-label-mono-sm text-label-mono-sm text-outline uppercase flex items-center gap-space-xs">
+<span class="w-1.5 h-1.5 bg-primary-fixed inline-block"></span>
+<span>PRODUCCIÓN &amp; MONITORING</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: PROYECTOS Y PORTAFOLIO ("EXPERIMENTOS. SOLUCIONES. RESULTADOS.") -->
+<section class="w-full bg-surface-container-low py-space-xl" id="portafolio">
+<div class="w-full px-gutter-desktop mx-auto max-w-7xl flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed uppercase tracking-wider">// ARTEFACTOS_PRODUCIDOS // SPEC-06</span>
+<h2 class="font-headline-lg text-headline-lg text-primary uppercase">EXPERIMENTOS. SOLUCIONES. RESULTADOS.</h2>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-primary-fixed uppercase bg-surface-container border border-primary-fixed/30 px-space-sm py-1">
+          STATUS: 6 DEPLOYED DEMO EXPERIMENTS
+        </div>
+</div>
+<!-- 6 Visual Demonstration Concepts Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- 01 NovaRetail POS -->
+<div class="bg-surface-container border border-outline-variant/40 flex flex-col justify-between group hover:border-primary-fixed/50 hover:bg-surface-container-high transition-all">
+<div class="flex flex-col">
+<!-- Simulated Mockup Frame -->
+<div class="h-44 bg-surface-container-lowest p-space-sm flex flex-col justify-between relative overflow-hidden border-b border-outline-variant/40">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline">
+<span>TERMINAL_POS_v2.4</span>
+<span class="text-primary-fixed">[ ONLINE ]</span>
+</div>
+<div class="flex items-center justify-between bg-surface-container p-2 border border-outline-variant/30">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">TICKET #9842</span>
+<span class="font-label-mono-md text-label-mono-md text-primary font-bold">$142,500 COP</span>
+</div>
+<div class="grid grid-cols-3 gap-1 font-label-mono-sm text-label-mono-sm">
+<div class="bg-surface-container-low text-center py-1 text-outline">BARCODE OK</div>
+<div class="bg-surface-container-low text-center py-1 text-primary-fixed">DRAWER CLS</div>
+<div class="bg-surface-container-low text-center py-1 text-secondary">TAX: 19%</div>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed font-bold uppercase">[ DEMO CONCEPT // LAB EXPERIMENT ]</span>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">SISTEMA POS NOVARETAIL</h3>
+<p class="font-body-md text-body-md text-secondary">
+                Punto de venta táctil de latencia ultrabaja para comercio minorista, con control de existencias en tiempo real y sincronización en segundo plano.
+              </p>
+<div class="flex flex-wrap gap-1 mt-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-primary-fixed/80 border border-outline-variant">Next.js</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">SQLite</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">Tailwind CSS</span>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-2 bg-surface-container-low border border-primary-fixed/40 text-primary-fixed font-label-mono-md text-label-mono-md uppercase font-bold hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" href="https://wa.me/573113363362?text=Hola%20Frank,%20quiero%20conocer%20mas%20sobre%20el%20demo%20POS%20NovaRetail" rel="noopener noreferrer" target="_blank">
+<span>[ EXPLORAR PROTOTIPO ↗ ]</span>
+</a>
+</div>
+</div>
+<!-- 02 Nexus ERP Enterprise -->
+<div class="bg-surface-container border border-outline-variant/40 flex flex-col justify-between group hover:border-primary-fixed/50 hover:bg-surface-container-high transition-all">
+<div class="flex flex-col">
+<!-- Simulated Mockup Frame -->
+<div class="h-44 bg-surface-container-lowest p-space-sm flex flex-col justify-between relative overflow-hidden border-b border-outline-variant/40">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline">
+<span>ERP_FINANCIAL_DASH</span>
+<span class="text-primary-fixed">[ ACTIVE ]</span>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div class="bg-surface-container p-2 flex flex-col border border-outline-variant/30">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">MARGEN BRUTO</span>
+<span class="font-label-mono-md text-label-mono-md text-primary font-bold">+38.4%</span>
+</div>
+<div class="bg-surface-container p-2 flex flex-col border border-outline-variant/30">
+<span class="font-label-mono-sm text-label-mono-sm text-outline">INVENTARIO</span>
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed font-bold">12,490 SKUs</span>
+</div>
+</div>
+<div class="w-full bg-surface-container-low h-2 overflow-hidden">
+<div class="bg-primary-fixed h-full w-4/5 shadow-[0_0_8px_#00E5FF]"></div>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed font-bold uppercase">[ DEMO CONCEPT // LAB EXPERIMENT ]</span>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">NEXUS ERP ENTERPRISE</h3>
+<p class="font-body-md text-body-md text-secondary">
+                Plataforma de orquestación industrial para manufactura, cadena de suministros y consolidación de tesorería multidivisa.
+              </p>
+<div class="flex flex-wrap gap-1 mt-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-primary-fixed/80 border border-outline-variant">Django</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">PostgreSQL</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">React</span>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-2 bg-surface-container-low border border-primary-fixed/40 text-primary-fixed font-label-mono-md text-label-mono-md uppercase font-bold hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" href="https://wa.me/573113363362?text=Hola%20Frank,%20quiero%20conocer%20mas%20sobre%20el%20demo%20Nexus%20ERP" rel="noopener noreferrer" target="_blank">
+<span>[ EXPLORAR PROTOTIPO ↗ ]</span>
+</a>
+</div>
+</div>
+<!-- 03 PulseApp Mobile -->
+<div class="bg-surface-container border border-outline-variant/40 flex flex-col justify-between group hover:border-primary-fixed/50 hover:bg-surface-container-high transition-all">
+<div class="flex flex-col">
+<!-- Simulated Mockup Frame -->
+<div class="h-44 bg-surface-container-lowest p-space-sm flex flex-col justify-between relative overflow-hidden border-b border-outline-variant/40">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline">
+<span>MOBILE_FRAMEWORK // FLUTTER</span>
+<span class="text-primary-fixed">60 FPS</span>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container p-2 border border-outline-variant/30">
+<div class="w-6 h-6 bg-primary-fixed rounded-none flex items-center justify-center shadow-[0_0_6px_#00E5FF]">
+<span class="material-symbols-outlined text-on-primary-fixed text-[14px]">bolt</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-primary font-bold">PULSE SYNC STREAM</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">OFFLINE STORAGE READY</span>
+</div>
+</div>
+<div class="flex justify-between font-label-mono-sm text-label-mono-sm text-secondary">
+<span>DEVICE: ANDROID/IOS</span>
+<span>STATE: RESILIENT</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed font-bold uppercase">[ DEMO CONCEPT // LAB EXPERIMENT ]</span>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">PULSEAPP MOBILE</h3>
+<p class="font-body-md text-body-md text-secondary">
+                Aplicación para equipos de campo con telemetría offline-first, geolocalización continua y sincronización atómica con Firebase.
+              </p>
+<div class="flex flex-wrap gap-1 mt-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-primary-fixed/80 border border-outline-variant">Flutter</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">Firebase</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">Dart</span>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-2 bg-surface-container-low border border-primary-fixed/40 text-primary-fixed font-label-mono-md text-label-mono-md uppercase font-bold hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" href="https://wa.me/573113363362?text=Hola%20Frank,%20quiero%20conocer%20mas%20sobre%20el%20demo%20PulseApp%20Mobile" rel="noopener noreferrer" target="_blank">
+<span>[ EXPLORAR PROTOTIPO ↗ ]</span>
+</a>
+</div>
+</div>
+<!-- 04 Lumina Studio Web -->
+<div class="bg-surface-container border border-outline-variant/40 flex flex-col justify-between group hover:border-primary-fixed/50 hover:bg-surface-container-high transition-all">
+<div class="flex flex-col">
+<!-- Simulated Mockup Frame -->
+<div class="h-44 bg-surface-container-lowest p-space-sm flex flex-col justify-between relative overflow-hidden border-b border-outline-variant/40">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline">
+<span>VIEWPORT // EDITORIAL_SSR</span>
+<span class="text-primary-fixed">100/100 LIGHTHOUSE</span>
+</div>
+<div class="p-2 bg-surface-container flex flex-col gap-1 border border-outline-variant/30">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed font-bold">LUMINA ARCHITECTURE</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">Aesthetic web platform with extreme micro-interactions</span>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-outline">RENDER: EDGE STREAMING</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed font-bold uppercase">[ DEMO CONCEPT // LAB EXPERIMENT ]</span>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">LUMINA STUDIO WEB</h3>
+<p class="font-body-md text-body-md text-secondary">
+                Plataforma web hiper-optimizada con renders en el Edge, arquitectura Jamstack e identidad brutalista de conversión premium.
+              </p>
+<div class="flex flex-wrap gap-1 mt-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-primary-fixed/80 border border-outline-variant">Next.js</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">Tailwind CSS</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">Edge Runtime</span>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-2 bg-surface-container-low border border-primary-fixed/40 text-primary-fixed font-label-mono-md text-label-mono-md uppercase font-bold hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" href="https://wa.me/573113363362?text=Hola%20Frank,%20quiero%20conocer%20mas%20sobre%20el%20demo%20Lumina%20Studio" rel="noopener noreferrer" target="_blank">
+<span>[ EXPLORAR PROTOTIPO ↗ ]</span>
+</a>
+</div>
+</div>
+<!-- 05 Vortex CRM Intelligence -->
+<div class="bg-surface-container border border-outline-variant/40 flex flex-col justify-between group hover:border-primary-fixed/50 hover:bg-surface-container-high transition-all">
+<div class="flex flex-col">
+<!-- Simulated Mockup Frame -->
+<div class="h-44 bg-surface-container-lowest p-space-sm flex flex-col justify-between relative overflow-hidden border-b border-outline-variant/40">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline">
+<span>PIPELINE_KANBAN</span>
+<span class="text-primary-fixed">CONV: 24.8%</span>
+</div>
+<div class="grid grid-cols-3 gap-1">
+<div class="bg-surface-container p-1 text-[9px] font-label-mono-sm text-outline">LEAD (14)</div>
+<div class="bg-surface-container p-1 text-[9px] font-label-mono-sm text-primary-fixed border border-primary-fixed/40">OFFER (6)</div>
+<div class="bg-surface-container p-1 text-[9px] font-label-mono-sm text-primary">WON (9)</div>
+</div>
+<div class="flex justify-between font-label-mono-sm text-label-mono-sm text-secondary">
+<span>AUTO-EMAIL: SENT</span>
+<span>SLA: 12 MIN</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed font-bold uppercase">[ DEMO CONCEPT // LAB EXPERIMENT ]</span>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">VORTEX CRM INTELLIGENCE</h3>
+<p class="font-body-md text-body-md text-secondary">
+                Gestor comercial de prospectos con asignación algorítmica, scoring predictivo y disparo de recordatorios por WhatsApp Business API.
+              </p>
+<div class="flex flex-wrap gap-1 mt-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-primary-fixed/80 border border-outline-variant">FastAPI</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">React</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">Node.js</span>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-2 bg-surface-container-low border border-primary-fixed/40 text-primary-fixed font-label-mono-md text-label-mono-md uppercase font-bold hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" href="https://wa.me/573113363362?text=Hola%20Frank,%20quiero%20conocer%20mas%20sobre%20el%20demo%20Vortex%20CRM" rel="noopener noreferrer" target="_blank">
+<span>[ EXPLORAR PROTOTIPO ↗ ]</span>
+</a>
+</div>
+</div>
+<!-- 06 FlowBot Engine -->
+<div class="bg-surface-container border border-outline-variant/40 flex flex-col justify-between group hover:border-primary-fixed/50 hover:bg-surface-container-high transition-all">
+<div class="flex flex-col">
+<!-- Simulated Mockup Frame -->
+<div class="h-44 bg-surface-container-lowest p-space-sm flex flex-col justify-between relative overflow-hidden border-b border-outline-variant/40">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline">
+<span>N8N_ORCHESTRATOR // AGENT_04</span>
+<span class="text-primary-fixed">AUTONOMOUS</span>
+</div>
+<div class="bg-surface-container p-2 flex items-center justify-between border border-outline-variant/30">
+<div class="flex flex-col font-label-mono-sm text-label-mono-sm">
+<span class="text-secondary">INPUT: RAW PDF BILL</span>
+<span class="text-primary-fixed font-semibold">OUTPUT: SQL INSERT &amp; SLACK</span>
+</div>
+<span class="material-symbols-outlined text-primary-fixed text-lg">schema</span>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-outline">TIME SAVED: 18h / WEEK</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed font-bold uppercase">[ DEMO CONCEPT // LAB EXPERIMENT ]</span>
+<h3 class="font-headline-md text-headline-md text-primary uppercase">FLOWBOT ENGINE</h3>
+<p class="font-body-md text-body-md text-secondary">
+                Motor de agentes inteligentes para extracción estructurada de documentos, conciliación y sincronización multicanal automatizada.
+              </p>
+<div class="flex flex-wrap gap-1 mt-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-primary-fixed/80 border border-outline-variant">Python</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">n8n</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 bg-surface-container-lowest text-outline border border-outline-variant">OpenAI API</span>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-2 bg-surface-container-low border border-primary-fixed/40 text-primary-fixed font-label-mono-md text-label-mono-md uppercase font-bold hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" href="https://wa.me/573113363362?text=Hola%20Frank,%20quiero%20conocer%20mas%20sobre%20el%20demo%20FlowBot%20Engine" rel="noopener noreferrer" target="_blank">
+<span>[ EXPLORAR PROTOTIPO ↗ ]</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: SECCIÓN DE CONVERSIÓN (HIGH IMPACT) -->
+<section class="w-full bg-surface-container-lowest py-space-xl lg:py-28 relative overflow-hidden">
+<!-- Electric cyan subtle background aura -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-96 h-96 bg-primary-fixed opacity-10 blur-[120px] rounded-full pointer-events-none"></div>
+<div class="relative z-10 w-full px-gutter-desktop mx-auto max-w-5xl flex flex-col items-center text-center gap-space-md">
+<div class="flex items-center gap-space-sm font-label-mono-sm text-label-mono-sm text-primary-fixed uppercase tracking-widest bg-surface-container-high border border-primary-fixed/40 px-space-md py-1">
+<span class="w-2 h-2 bg-primary-fixed led-pulse shadow-[0_0_6px_#00E5FF]"></span>
+<span>TERMINAL READY // ACCIÓN REQUERIDA</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-primary uppercase tracking-tight">
+        TU IDEA MERECE EXISTIR.
+      </h2>
+<p class="font-body-lg text-body-lg text-secondary max-w-2xl leading-relaxed">
+        ¿Tienes una idea, un negocio que digitalizar o un proceso que necesita mejorar radicalmente? Construyamos juntos una solución tecnológica a medida.
+      </p>
+<p class="font-label-mono-md text-label-mono-md text-on-surface-variant max-w-xl">
+        Cuéntame qué necesitas. Diseñaremos una solución adaptada a tu visión y lista para escalar.
+      </p>
+<div class="mt-space-md">
+<a class="inline-flex items-center gap-space-sm px-space-xl py-5 bg-primary-fixed text-on-primary-fixed font-headline-md text-headline-md font-bold uppercase tracking-wider shadow-[4px_4px_0px_0px_#ffffff] hover:bg-surface-container hover:text-primary-fixed hover:shadow-[4px_4px_0px_0px_#00E5FF] transition-all" href="https://wa.me/573113363362?text=Hola%20Frank,%20tengo%20una%20idea%20y%20quiero%20construir%20un%20proyecto%20con%20Arevalo%20Labs" rel="noopener noreferrer" target="_blank">
+<span>[ HABLEMOS DE TU PROYECTO ↗ ]</span>
+</a>
+</div>
+</div>
+</section>
+<!-- SECTION 8: TARJETA DE CONTACTO DIRECTO ("CONTACTO DIRECTO") -->
+<section class="w-full bg-surface-container-low py-space-xl" id="contacto">
+<div class="w-full px-gutter-desktop mx-auto max-w-7xl flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm text-outline uppercase">
+<span>// DIRECT_COMMUNICATION_PROTOCOL // 08</span>
+<span class="text-primary-fixed">DIRECT CONTACT LINK</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+<!-- Brutalist ID Card / Credentials Module -->
+<div class="lg:col-span-6 bg-surface-container border border-outline-variant/60 p-space-lg flex flex-col justify-between gap-space-lg shadow-[4px_4px_0px_0px_#070a0f]">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ ID_CARD // LAB CREDENTIALS ]</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">SEC_LVL: ALPHA</span>
+</div>
+<div class="flex items-start gap-space-md">
+<div class="w-16 h-16 bg-surface-container-lowest border border-primary-fixed/40 flex items-center justify-center text-primary-fixed font-headline-md font-bold text-headline-md shadow-[0_0_12px_rgba(0,229,255,0.2)]">
+                FA
+              </div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary leading-tight">FRANK ARÉVALO</span>
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">LEAD SOFTWARE ARCHITECT</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">AREVALO LABS — AREVALO LABORATORIOS</span>
+</div>
+</div>
+<!-- Monospaced Data Grid -->
+<div class="grid grid-cols-1 gap-space-xs font-label-mono-sm text-label-mono-sm bg-surface-container-low border border-outline-variant/40 p-space-sm">
+<div class="flex items-center justify-between py-1 border-b border-outline-variant/20">
+<span class="text-outline uppercase">WHATSAPP DIRECT:</span>
+<a class="text-primary-fixed hover:underline font-bold" href="https://wa.me/573113363362" rel="noopener noreferrer" target="_blank">+57 311 336 3362</a>
+</div>
+<div class="flex items-center justify-between py-1 border-b border-outline-variant/20">
+<span class="text-outline uppercase">OFFICIAL EMAIL:</span>
+<a class="text-on-surface hover:text-primary-fixed transition-colors font-bold" href="mailto:frankarevalo134@gmail.com">frankarevalo134@gmail.com</a>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="text-outline uppercase">LOCATION:</span>
+<span class="text-on-surface uppercase">BOGOTÁ, COLOMBIA // GLOBAL RELAY</span>
+</div>
+</div>
+</div>
+<!-- Direct Action Buttons -->
+<div class="flex flex-wrap gap-space-sm pt-space-sm">
+<a class="flex-1 inline-flex items-center justify-center gap-space-xs px-space-md py-3 bg-primary-fixed text-on-primary-fixed font-label-mono-md text-label-mono-md uppercase font-bold hover:bg-surface-container-lowest hover:text-primary-fixed border border-primary-fixed transition-colors" href="https://wa.me/573113363362?text=Hola%20Frank,%20deseo%20comunicarme%20directamente%20contigo" rel="noopener noreferrer" target="_blank">
+<span>[ CONTACTAR POR WHATSAPP ]</span>
+</a>
+<a class="flex-1 inline-flex items-center justify-center gap-space-xs px-space-md py-3 bg-surface-container-high border border-outline-variant text-primary font-label-mono-md text-label-mono-md uppercase font-bold hover:bg-surface-variant hover:text-primary-fixed hover:border-primary-fixed transition-colors" href="mailto:frankarevalo134@gmail.com">
+<span>[ ENVIAR CORREO ]</span>
+</a>
+</div>
+</div>
+<!-- Quick Project Simulator / Interactive Scope Console -->
+<div class="lg:col-span-6 bg-surface-container border border-outline-variant/60 p-space-lg flex flex-col gap-space-md shadow-[4px_4px_0px_0px_#070a0f]">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-md text-label-mono-md text-primary-fixed uppercase font-bold">[ TERMINAL DE CONTACTO &amp; ALCANCE ]</span>
+<span class="font-label-mono-sm text-label-mono-sm text-outline">DISPATCH READY</span>
+</div>
+<form class="flex flex-col gap-space-sm" id="project-estimator-form" onsubmit="event.preventDefault(); dispatchWhatsApp();">
+<div class="flex flex-col gap-1">
+<label class="font-label-mono-sm text-label-mono-sm text-outline uppercase" for="contact-name">TU NOMBRE O EMPRESA:</label>
+<input class="w-full bg-surface-container-lowest text-primary font-label-mono-md text-label-mono-md p-space-sm border border-outline-variant/50 focus:outline-none focus:ring-1 focus:ring-primary-fixed focus:border-primary-fixed" id="contact-name" placeholder="p. ej. Carlos Méndez / Nexus Corp" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-mono-sm text-label-mono-sm text-outline uppercase" for="contact-service">TIPO DE SOLUCIÓN REQUERIDA:</label>
+<select class="w-full bg-surface-container-lowest text-primary font-label-mono-md text-label-mono-md p-space-sm border border-outline-variant/50 focus:outline-none focus:ring-1 focus:ring-primary-fixed focus:border-primary-fixed" id="contact-service">
+<option value="Sistemas ERP &amp; Gestión">01 — Sistemas ERP &amp; Gestión Interna</option>
+<option value="Software Contable &amp; Finanzas">02 — Software Contable &amp; Facturación</option>
+<option value="Sistema POS Punto de Venta">03 — Sistema POS &amp; Retail</option>
+<option value="CRM &amp; Automatización Ventas">04 — CRM &amp; Pipeline Comercial</option>
+<option value="Desarrollo Web &amp; Plataformas">05 — Desarrollo Web Corporativo / E-commerce</option>
+<option value="Aplicaciones Móviles Multiplataforma">06 — Aplicaciones Móviles (iOS / Android)</option>
+<option value="Automatización de Procesos &amp; n8n">07 — Automatizaciones &amp; Integraciones</option>
+<option value="Software a Medida Especializado">08 — Software a Medida Propietario</option>
+<option value="Inteligencia Artificial &amp; Modelos">10 — Integración de Inteligencia Artificial</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-mono-sm text-label-mono-sm text-outline uppercase" for="contact-details">RESUMEN DEL PROYECTO O DESAFÍO:</label>
+<textarea class="w-full bg-surface-container-lowest text-primary font-label-mono-md text-label-mono-md p-space-sm border border-outline-variant/50 focus:outline-none focus:ring-1 focus:ring-primary-fixed focus:border-primary-fixed" id="contact-details" placeholder="Describe brevemente lo que necesitas automatizar o construir..." rows="3"></textarea>
+</div>
+<button class="w-full mt-space-xs inline-flex items-center justify-center gap-space-xs py-3 bg-primary-fixed text-on-primary-fixed font-label-mono-md text-label-mono-md uppercase font-bold border border-primary-fixed hover:bg-surface-container-lowest hover:text-primary-fixed transition-colors" type="submit">
+<span>[ TRANSMITIR SOLICITUD A WHATSAPP ↗ ]</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive script for dispatching formatted terminal data -->
+<script>
+    function dispatchWhatsApp() {
+      const name = document.getElementById('contact-name').value.trim();
+      const service = document.getElementById('contact-service').value;
+      const details = document.getElementById('contact-details').value.trim();
+
+      const text = encodeURIComponent(
+        `Hola Frank, te contacto desde la terminal de Arevalo Labs.\n\n` +
+        `• Nombre/Empresa: ${name}\n` +
+        `• Tipo de Proyecto: ${service}\n` +
+        `• Detalles: ${details || 'Sin detalles adicionales'}\n\n` +
+        `Deseo coordinar una sesión de diagnóstico técnico.`
+      );
+
+      window.open(`https://wa.me/573113363362?text=${text}`, '_blank');
+    }
+  </script>
+</div></main><aside class="fixed bottom-6 right-6 z-40 flex items-center gap-space-xs"><a class="group flex items-center gap-space-sm px-space-md py-3 bg-surface-container-high border border-outline-variant hover:border-primary-fixed shadow-[3px_3px_0px_0px_#070a0f] transition-all" href="https://wa.me/573113363362" rel="noopener noreferrer" target="_blank"><span class="relative flex h-3 w-3"><span class="led-pulse absolute inline-flex h-full w-full bg-primary-fixed opacity-75"></span><span class="relative inline-flex h-3 w-3 bg-primary-fixed shadow-[0_0_6px_#00E5FF]"></span></span><span class="font-label-mono-md text-label-mono-md uppercase text-on-surface group-hover:text-primary-fixed tracking-wider">COMMS // DISPATCH ↗</span></a></aside><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/60"><div class="w-full px-gutter-desktop mx-auto py-space-xl"><div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-gutter-desktop mb-space-xl"><div class="lg:col-span-5 flex flex-col gap-space-md"><div class="flex items-center"><img alt="Arevalo Labs Corporate Brutalist Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W_cK79YSmrdV5YETpLuT4x9qVNrf9kullTsxLqQDYGffSw3lBVrK9BWmgiNJa_yFB5mx1fszxNvO86XpS46RqsqETG-SXOXDvJKqVTuXP2AIWTxtfSX-zlhJfrdw-zB373QhYS-wgHOvyhELyAVmNQ2lIbgAGhYpONzfW6X1nHptQQqhZe22ups0CC2pwoQfjnOFPLU--5Xx8cmUyI-8yUyp-v86HBaDzuiIc9kAjZ"/></div><p class="font-body-md text-body-md text-secondary max-w-md">Laboratorio de arquitectura de software, ingeniería de sistemas distribuidos y computación de alto rendimiento.</p><div class="flex flex-col gap-1 font-label-mono-sm text-label-mono-sm text-outline"><span class="uppercase">GEO_COORDS: LAT 4.7110° N / LON 74.0721° W</span><span class="uppercase">LOCATION: BOGOTÁ TECH NODE // COLOMBIA</span><span class="uppercase text-on-surface-variant">LEAD ARCHITECT: FRANK ARÉVALO</span></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-mono-lg text-label-mono-lg text-primary uppercase tracking-wider mb-space-xs">// MÓDULOS_SISTEMA</span><nav class="flex flex-col gap-space-xs" data-active-classes="text-primary-fixed"><a class="font-label-mono-md text-label-mono-md text-on-surface-variant hover:text-primary-fixed transition-colors" data-path="servicios" href="#">// 01 ARCHITECTURE &amp; CLOUD</a><a class="font-label-mono-md text-label-mono-md text-on-surface-variant hover:text-primary-fixed transition-colors" data-path="tecnologias" href="#">// 02 RUNTIME SYSTEMS</a><a class="font-label-mono-md text-label-mono-md text-on-surface-variant hover:text-primary-fixed transition-colors" data-path="proceso" href="#">// 03 PROTOCOLS &amp; PIPELINES</a><a class="font-label-mono-md text-label-mono-md text-on-surface-variant hover:text-primary-fixed transition-colors" data-path="portafolio" href="#">// 04 DEPLOYED NODES</a></nav></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-mono-lg text-label-mono-lg text-primary uppercase tracking-wider mb-space-xs">// ENLACES_DIRECTOS</span><nav class="flex flex-col gap-space-xs" data-active-classes="text-primary-fixed"><a aria-current="page" class="font-label-mono-md transition-colors text-primary-fixed" data-path="inicio" href="#">Inicio</a><a class="font-label-mono-md text-label-mono-md text-on-surface-variant hover:text-primary-fixed transition-colors" data-path="contacto" href="#">Terminal Contacto</a><a class="font-label-mono-md text-label-mono-md text-on-surface-variant hover:text-primary-fixed transition-colors" href="https://wa.me/573113363362" rel="noopener noreferrer" target="_blank">WhatsApp Relay ↗</a></nav></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-mono-lg text-label-mono-lg text-primary uppercase tracking-wider mb-space-xs">// TELEMETRÍA</span><div class="p-space-sm bg-surface-container border border-outline-variant flex flex-col gap-space-xs"><div class="flex items-center justify-between"><span class="font-label-mono-sm text-label-mono-sm text-outline">CLUSTER:</span><span class="font-label-mono-sm text-label-mono-sm text-primary-fixed font-bold">US-EAST-1 // BOG</span></div><div class="flex items-center justify-between"><span class="font-label-mono-sm text-label-mono-sm text-outline">UPTIME:</span><span class="font-label-mono-sm text-label-mono-sm text-on-surface">99.98%</span></div><div class="flex items-center justify-between"><span class="font-label-mono-sm text-label-mono-sm text-outline">LATENCY:</span><span class="font-label-mono-sm text-label-mono-sm text-primary-fixed font-bold">12ms</span></div></div></div></div><div class="border-t border-outline-variant/60 pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-mono-sm text-label-mono-sm text-outline"><div>© 2026 AREVALO LABS®. ALL RIGHTS RESERVED. SEC_LEVEL: ALPHA.</div><div class="flex items-center gap-space-md"><span>SPEC: RFC-822 COMPLIANT</span><span>BUILD: v4.8.1-PROD</span></div></div></div></footer></body></html>
