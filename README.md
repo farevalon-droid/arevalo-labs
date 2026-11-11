@@ -28,7 +28,9 @@ stitch_arevalo_labs_landing_page/
 │   │   └── MaterialSymbols.woff2
 │   │
 │   └── images/
-│       └── logo.webp           # Logo self-hosted (eliminada URL privada de Google)
+│       ├── logo.svg            # Lockup vectorial: marca + wordmark (texto en curvas)
+│       ├── mark.svg            # Marca suelta (A + travesaño ácido)
+│       └── favicon.svg         # Favicon vectorial (placa + A)
 │
 ├── netlify.toml                # Headers de seguridad para despliegue
 ├── DESIGN.md                   # Design system spec (Kinetic Lab Brutalism)
@@ -76,6 +78,27 @@ stitch_arevalo_labs_landing_page/
 | Fonts | `font-display: swap` — sin bloqueo de render |
 | Images | `loading="lazy"` + `decoding="async"` + `width/height` |
 | Scripts | Cargados al final del `<body>` con `defer` |
+
+---
+
+## Identidad de Marca
+
+El logo es 100% vectorial (`assets/images/logo.svg`) y se construye con los tokens del sitio:
+
+| Elemento | Valor |
+|---|---|
+| Marca | Monograma "A" con travesaño en acento — geometría plana, sin degradados ni brillos |
+| Wordmark | Space Grotesk 700 convertido a curvas (no depende de la carga de fuentes) |
+| Tagline | JetBrains Mono 700, `SOFTWARE ENGINEERING LAB // BOGOTÁ` |
+| Acento | `#00E5FF` (electric cyan) |
+| Tinta | `#E5E2E1` (on-surface) |
+| Secundario | `#486581` (outline) |
+
+Archivos:
+
+- `logo.svg` — lockup horizontal (header y footer)
+- `mark.svg` — marca aislada (avatares, redes, sellos)
+- `favicon.svg` — versión para 16–32 px sobre placa oscura
 
 ---
 
